@@ -1,17 +1,13 @@
-body {
-    background-color: #ddd;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.input--field {
+    background-image: url('../images/bg.gif');
+    background-position: center center;
+    background-size: cover;
+    height: 25vh;
 }
-
-.area {
+.input--container {
+    max-width: 400px;
     width: 100%;
-    max-width: 350px;    
 }
-
-footer {
-    position: absolute;
-    bottom: 20px;
+#input--icon {
+    cursor: pointer;
 }
